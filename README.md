@@ -2,9 +2,10 @@
 #
 # BE CAREFUL THIS THIS IS AGGRESSIVE
 #
+<pre>
 # set the enviroment variable TARGET with a URL
 # and this will create a bunch of simulated
-# seb users who will AGGRESSIVE grab the url
+# web users who will AGGRESSIVE grab the url
 # as fast as they can, and they will not stop
 #
 # used for testing cloud apps for scale and response
@@ -22,4 +23,5 @@
 # docker run --restart=always -e TARGET="www.example.site/page" --name client$i -d client
 #done
 #
+</pre>
 # EOF
